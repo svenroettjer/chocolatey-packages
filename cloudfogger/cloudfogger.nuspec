@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>cloudfogger</id>
+    <title>CloudFogger</title>
+    <version>1.5.33</version>
+    <authors>CloudFogger GmbH</authors>
+    <owners>sven.roettjer</owners>
+    <summary>CloudFogger - cloud storage encrypter</summary>
+    <description>Cloudfogger encrypts your data on the local device before it gets uploaded to the cloud. That guarantees that Dropbox and others never get access to the content of your files.
+Cloudfogger protects your privacy with 256bit AES (Advanced Encryption Standard) encryption. 
+    </description>
+    <projectUrl>https://www.cloudfogger.com/en/</projectUrl>
+    <packageSourceUrl>https://www.cloudfogger.com/download/Cloudfogger_Setup.exe</packageSourceUrl>
+    <docsUrl>https://help.cloudfogger.com/en/</docsUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>cloudfogger cloud admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://support.cloudfogger.com/index.php?/Knowledgebase/List/Index/10/licensing</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/svenroettjer/chocolatey-packages/1355213ed1e0b7d9e8f52723172e8319c4cedbb8/icons/Cloudfogger.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes>see http://blog.cloudfogger.com/</releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
