@@ -13,7 +13,7 @@
 Cloudfogger protects your privacy with 256bit AES (Advanced Encryption Standard) encryption. 
     </description>
     <projectUrl>https://www.cloudfogger.com/en/</projectUrl>
-    <packageSourceUrl>https://www.cloudfogger.com/download/Cloudfogger_Setup.exe</packageSourceUrl>
+    <packageSourceUrl>https://github.com/svenroettjer/chocolatey-packages</packageSourceUrl>
     <docsUrl>https://help.cloudfogger.com/en/</docsUrl>
     <!--<projectSourceUrl></projectSourceUrl>
     <docsUrl></docsUrl>
