@@ -18,6 +18,6 @@ $uninstallString = (Get-ItemProperty -Path $registryPath -Name 'UninstallString'
 }
 
 if ($uninstallString) {
-stop-process -Name cloudfogger -force
+Get-Process | Where-Object { $_.name -eq "cloudfogger" } | Foreach-Object { $_.Kill() }
 Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $uninstallString
 }

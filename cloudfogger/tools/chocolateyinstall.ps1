@@ -13,6 +13,7 @@ $packageArgs = @{
   softwareName  = 'cloudfogger*'
 }
 
+Get-Process | Where-Object { $_.name -eq "cloudfogger" } | Foreach-Object { $_.Kill() }
 Install-ChocolateyPackage @packageArgs
 
 
