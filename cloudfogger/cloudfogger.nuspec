@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>cloudfogger</id>
     <title>CloudFogger</title>
-    <version>1.5.42</version>
+    <version>{{PackageVersion}}</version>
     <authors>CloudFogger GmbH</authors>
     <owners>sven.roettjer</owners>
     <summary>CloudFogger - cloud storage encrypter</summary>
